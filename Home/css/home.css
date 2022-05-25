@@ -1,0 +1,489 @@
+body {
+  margin: 0;
+  background-image: url('../bug.jpg');
+
+  /* height: 10000px */
+}
+
+
+/* Starting Navbar */
+
+
+
+
+
+
+
+
+
+
+
+
+img.logo {
+    transform: translate(10px, -21px);
+}
+.logo{
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark.bg-dark {
+    border-radius: 0px;
+}
+
+.navbar {
+	color: #fdfefe;
+    position: relative;
+    min-height: 40px;
+    margin-bottom: 0px;
+
+	
+}
+.me-2 {
+    margin-right: 7.5rem!important;
+}
+button.btn.btn-outline-primary {
+    margin-right: 40px;
+}
+.btn{
+	margin-right: 7px;
+}
+.d-flex{
+  margin-top: 10px;
+  float: right;
+}
+/* Ending Navbar */
+
+ 
+
+
+
+/* Starting Footer */
+
+.three ul li a {
+	text-decoration: none;
+	color:white;
+}
+
+footer {
+
+	background:  rgba(51,66,87,0.9);
+	height: auto;
+	font-family: sans-serif;
+}
+
+footer p,
+footer ul li {
+	font-size: 23px;
+}
+
+.footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding-top: auto;
+	bottom: 0;
+}
+.footer a {
+	color: white;
+}
+
+footer h2 {
+	color: white;
+	margin-bottom: 30px;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.three ul {
+	list-style: none;
+	color: white;
+}
+
+.two {
+	text-align: center;
+	color: white;
+}
+
+.cco,
+.kok,
+.wht {
+	display: flex;
+	justify-content: center;
+	font-size: 23px;
+}
+.two a {
+	color: white;
+	text-decoration: none;
+}
+
+.two a i {
+	margin: 0 10px;
+}
+
+.cco p {
+	margin: 0px 10px;
+}
+
+.one {
+	text-align: center;
+}
+
+.one a {
+	font-size: 35px;
+	text-decoration: none;
+	margin: 5px 5px;
+}
+
+@media screen and (max-width: 740px) {
+	.footer {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.three,
+	.two,
+	.one {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+}
+
+/* Ending Footer */
+
+
+
+
+/* Starting Body */
+
+
+
+
+
+/*Courses */
+.courses {
+	padding: 100px 0 50px 0;
+}
+
+.courses .all {
+	text-align: center;
+	height: auto;
+	width: 98%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.courses .all .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 310px;
+	margin-bottom: 50px;
+	border: none;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+	text-align: center;
+}
+
+.courses .all .card img {
+	height: 300px;
+	width: 310px;
+	object-fit: cover;
+}
+
+.card-body {
+	height: 220px;
+}
+
+.tex {
+	text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 1000;
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+
+.card .card-body a {
+	background-color: rgb(51,66,87);
+	color: white;
+	font-weight: 500;
+	font-size: 18px;
+
+	text-transform: uppercase;
+}
+
+.card .card-body a:hover {
+	color: rgb(51,66,87);
+	background-color: white;
+	border: 1px solid rgb(51,66,87) ;
+	
+}
+
+/* end of Courses */
+
+
+
+
+
+
+
+
+
+
+/* Landing Section */
+
+/* p {
+    margin: -35px 0px -10px;
+} */
+
+
+.hob {
+	/* background-image: url(../photo.jpg); */
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	animation: change 20s infinite;
+
+}
+
+
+@keyframes change {
+	0%{
+		background-image: url('../man-writing.jpg')     ;
+	}
+	25%{
+	  background-image: url('../IMG_5391.JPG')     ;
+	}
+    50%{
+		background-image: url('../IMG_5394.JPG')     ;
+	  }
+	75%{
+		background-image: url('../IMG_5396.JPG')     ;
+	  }
+	  100%{
+		background-image: url('../man-writing.jpg')     ;
+	  }
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+.bacg {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: grid;
+	grid-template-columns: 2fr 13fr 2fr;
+    grid-template-rows: 2fr 1fr 3fr;
+	grid-template-areas:
+		". . ."
+		". klam ."
+		". . .";
+
+}
+
+
+
+
+
+.slog {
+	width: 100%;
+	height: 100%;
+	grid-area: klam;
+	font-size: 55px;
+	color: lightgrey;
+	text-align: center;
+	font-family: "Zen Tokyo Zoo", cursive;
+	line-height: 50px;
+	text-shadow: 5px 5px 8px rgb(124, 122, 122);
+}
+
+/* End of Landing Section */
+
+/* Our Latest Projects */
+
+.proj {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: auto;
+	padding-top: 50px;
+}
+
+.tex {
+	text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 1000;
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+
+.sora {
+	width: 400px;
+	height: 400px;
+	text-align: center;
+	border: 1px;
+	border-radius: 6px;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+	margin-bottom: 20px;
+
+}
+
+.card:hover{
+	transform: translate(-5px,-5px);
+}
+.sora:hover{
+	transform: translate(-5px,-5px);
+}
+.non {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 100px;
+	margin-top: 15px;
+}
+
+/* End of our latest projects */
+
+/* Testmonials */
+
+.testm {
+	height: auto;
+	width: 100%;
+	padding: 70px 0;
+	background-color: rgba(46, 165, 221, 0.5);
+}
+
+.prev,
+.nxt {
+	cursor: pointer;
+	text-align: center;
+}
+
+.sss {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feedb {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bo,
+.boo {
+	padding: 40px 30px;
+	border-radius: 20px;
+	align-content: center;
+	background-color: #fdfefe;
+	box-shadow: 5px 5px 8px rgb(124, 122, 122);
+	width: 70%;
+}
+
+.hid {
+	display: none;
+}
+
+.ffl {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.all {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.man {
+	width: 100px;
+	height: 100px;
+	border: 1px;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+/* End of testmonials */
+
+/* Instructors */
+
+.inst {
+	height: auto;
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.fst,
+.secn,
+.thrd {
+	padding: 20px 0;
+	width: 350px;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.7);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+	background-color: white;
+}
+
+.fst p,
+.secn p,
+.thrd p {
+	text-align: center;
+	width: 65%;
+}
+
+.toppp {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.flet {
+	width: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 815px) {
+	.bo,
+	.boo {
+		width: 100%;
+	}
+
+	.proj {
+		height: auto;
+	}
+	.ffl {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.prev,
+	.nxt {
+		margin: 0 20px;
+		text-align: center;
+	}
+}
+
+/* end of Instructors */

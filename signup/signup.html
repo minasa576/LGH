@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/log_in.css">
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/signup.css">
+
+  <style>
+    .sss{
+      text-align: center;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="logInAv" style="margin-top: 6%;">
+      <img  class="av" src="images/av.png" alt="avatar">
+      <h1>Sign up here</h1>
+      
+      <form method="GET" action="http://localhost/sign_up.php">
+
+        <p>Username</p> 
+        <input type="text" name="username" placeholder="Enter Username" >
+         <p>E-mail</p>
+        <input type="email" name="email" placeholder="Enter E-mail" ><br>
+        <p>location</p>
+        <input type="text" name="location" placeholder="Enter location" >
+        <p>Phone</p>
+        <input type="tel" name="phone" placeholder="+23-456-789" pattern="[0-9]{4}[0-9]{4}[0-9]{3}" required><br>
+        
+         <p>Password</p>
+        <input type="password" name="password" placeholder="Enter Password" ><br>
+        <p>Re-Enter Password</p>
+        <input type="password" name="password" placeholder="Enter Password" ><br>
+        
+        <button class="btn" type="submit"> Sign Up </button><br>
+        <a href="../login/login.html">Log In </a>
+      </form>
+
+    </div>
+  </body>
